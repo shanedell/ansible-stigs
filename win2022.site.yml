@@ -1,0 +1,11 @@
+---
+- name: Apply windows 2022 STIG
+  hosts: all
+  gather_facts: false
+  vars:
+    ansible_shell_type: "powershell"
+    ansible_become_method: "runas"
+  roles:
+    - role: win2022STIG
+      become: true
+      become_user: "SYSTEM"

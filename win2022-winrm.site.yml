@@ -1,0 +1,17 @@
+---
+- name: Apply windows 2022 STIG
+  hosts: all
+  gather_facts: false
+  vars:
+    ansible_shell_type: "powershell"
+    ansible_become_method: "runas"
+    ansible_connection: winrm
+    ansible_winrm_server_cert_validation: ignore
+    ansible_winrm_transport: ntlm
+    ansible_become_pass: "{{ lookup('env', 'WINRM_PASSWORD') }}"
+    ansible_winrm_read_timeout_sec: 660
+    ansible_winrm_operation_timeout_sec: 600
+  roles:
+    - role: win2022STIG
+      become: true
+      become_user: "SYSTEM"

@@ -1,0 +1,7 @@
+---
+- name: Apply Ubuntu 20.04 STIG Fixes
+  hosts: all
+  gather_facts: false
+  roles:
+    - role: ubuntu2004STIG
+      become: true
