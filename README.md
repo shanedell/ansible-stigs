@@ -4,6 +4,8 @@ This repository contains Ansible roles and sites for applying STIG fixes to diff
 
 - ubuntu2004STIG
     - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_20-04_LTS_V1R11_STIG_Ansible.zip.
+- ubuntu2204STIG
+    - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_22-04_LTS_V2R5_STIG_Ansible.zip.
 - win2022STIG
     - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_20-04_LTS_V1R11_STIG_Ansible.zip.
 
@@ -27,7 +29,7 @@ Both site files target remote systems. Follow below for how to run the sites.
         ```
 
         - Replace `<inventory-file>` with the path to the desired inventory file.
-        - Replace `<site-file>` with either `ubuntu2004.site.yml` or `win2022.site.yml`.
+        - Replace `<site-file>` with either `ubuntu2004.site.yml`, `ubuntu2204.site.yml` or `win2022.site.yml`.
 
     - Using IP address
         
@@ -36,6 +38,6 @@ Both site files target remote systems. Follow below for how to run the sites.
         ```
 
         - Replace `<ip-address>` with the desired IP address.
-        - Replace `<site-file>` with either `ubuntu2004.site.yml` or `win2022.site.yml`.
+        - Replace `<site-file>` with either `ubuntu2004.site.yml`, `ubuntu2204.site.yml` or `win2022.site.yml`.
 
 **NOTICE:** When using IP address, make sure that after the IP address a comma (`,`) is present, otherwise the command will fail or the playbook will not get ran properly.

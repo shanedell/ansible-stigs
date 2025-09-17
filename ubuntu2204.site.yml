@@ -1,0 +1,7 @@
+---
+- name: Apply Ubuntu 22.04 STIG Fixes
+  hosts: all
+  gather_facts: false
+  roles:
+    - role: ubuntu2204STIG
+      become: true
