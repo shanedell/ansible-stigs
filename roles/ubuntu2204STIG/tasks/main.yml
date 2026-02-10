@@ -178,7 +178,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260525_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260525 UBTU-22-255020
 - name: stigrule_260525__etc_issue_net
   copy:
@@ -195,7 +195,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260526_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260526 UBTU-22-255025
 - name: stigrule_260526_PermitUserEnvironment
   lineinfile:
@@ -205,7 +205,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260526_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260527 UBTU-22-255030
 - name: stigrule_260527_ClientAliveCountMax
   lineinfile:
@@ -215,7 +215,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260527_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260528 UBTU-22-255035
 - name: stigrule_260528_ClientAliveInterval
   lineinfile:
@@ -225,7 +225,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260528_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260529 UBTU-22-255040
 - name: stigrule_260529_X11Forwarding
   lineinfile:
@@ -235,7 +235,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260529_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260530 UBTU-22-255045
 - name: stigrule_260530_X11UseLocalhost
   lineinfile:
@@ -245,7 +245,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260530_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260531 UBTU-22-255050
 - name: stigrule_260531_Ciphers
   lineinfile:
@@ -255,7 +255,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260531_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260532 UBTU-22-255055
 - name: stigrule_260532_MACs
   lineinfile:
@@ -265,7 +265,7 @@
   notify: ssh_restart
   when:
     - ubuntu2204STIG_stigrule_260532_Manage
-    - "'openssh-server' in packages"
+    - packages['openssh-server'] is defined
 # R-260535 UBTU-22-271010
 - name: stigrule_260535__etc_gdm3_greeter_dconf_defaults_enable
   ini_file:
@@ -277,7 +277,7 @@
   notify: dconf_update
   when:
     - ubuntu2204STIG_stigrule_260535_Manage
-    - "'gdm3' in packages"
+    - packages['gdm3'] is defined
 # R-260536 UBTU-22-271015
 - name: stigrule_260536__etc_gdm3_greeter_dconf_defaults_text
   ini_file:
@@ -289,7 +289,7 @@
   notify: dconf_update
   when:
     - ubuntu2204STIG_stigrule_260536_Manage
-    - "'gdm3' in packages"
+    - packages['gdm3'] is defined
 # R-260545 UBTU-22-411025
 - name: stigrule_260545__etc_login_defs
   lineinfile:

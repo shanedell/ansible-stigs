@@ -5,9 +5,9 @@ This repository contains Ansible roles and sites for applying STIG fixes to diff
 - ubuntu2004STIG
     - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_20-04_LTS_V1R11_STIG_Ansible.zip.
 - ubuntu2204STIG
-    - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_22-04_LTS_V2R5_STIG_Ansible.zip.
+    - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_22-04_LTS_V2R7_STIG_Ansible.zip.
 - win2022STIG
-    - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_20-04_LTS_V1R11_STIG_Ansible.zip.
+    - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_MS_Windows_Server_2022_V1R1_STIG_Ansible.zip.
 
 **NOTICE:** These roles will be updated as soon as possible when new version are uploaded, however sometimes that may be outdated compared to what is currently on DoD Cyber Exchange.
 

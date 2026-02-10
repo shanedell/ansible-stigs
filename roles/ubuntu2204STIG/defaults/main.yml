@@ -72,7 +72,7 @@ ubuntu2204STIG_stigrule_260530_Manage: True
 ubuntu2204STIG_stigrule_260530_X11UseLocalhost_Line: X11UseLocalhost yes
 # R-260531 UBTU-22-255050
 ubuntu2204STIG_stigrule_260531_Manage: True
-ubuntu2204STIG_stigrule_260531_Ciphers_Line: Ciphers aes256-ctr,aes256-gcm@openssh.com,aes192-ctr,aes128-ctr,aes128-gcm@openssh.com
+ubuntu2204STIG_stigrule_260531_Ciphers_Line: Ciphers aes256-ctr,aes256-gcm@openssh.com,aes128-ctr,aes128-gcm@openssh.com
 # R-260532 UBTU-22-255055
 ubuntu2204STIG_stigrule_260532_Manage: True
 ubuntu2204STIG_stigrule_260532_MACs_Line: MACs hmac-sha2-512,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha2-256-etm@openssh.com 
