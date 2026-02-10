@@ -1,0 +1,7 @@
+---
+- name: Apply Ubuntu 24.04 STIG Fixes
+  hosts: all
+  gather_facts: false
+  roles:
+    - role: ubuntu2404STIG
+      become: true

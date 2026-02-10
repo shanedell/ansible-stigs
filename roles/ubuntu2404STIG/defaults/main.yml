@@ -1,0 +1,365 @@
+# R-270645 UBTU-24-100010
+ubuntu2404STIG_stigrule_270645_Manage: True
+ubuntu2404STIG_stigrule_270645_systemd_timesyncd_State: absent
+# R-270646 UBTU-24-100020
+ubuntu2404STIG_stigrule_270646_Manage: True
+ubuntu2404STIG_stigrule_270646_ntp_State: absent
+# R-270647 UBTU-24-100030
+ubuntu2404STIG_stigrule_270647_Manage: True
+ubuntu2404STIG_stigrule_270647_telnet_State: absent
+# R-270648 UBTU-24-100040
+ubuntu2404STIG_stigrule_270648_Manage: True
+ubuntu2404STIG_stigrule_270648_rsh_server_State: absent
+# R-270649 UBTU-24-100100
+ubuntu2404STIG_stigrule_270649_Manage: True
+ubuntu2404STIG_stigrule_270649_aide_State: present
+# R-270653 UBTU-24-100200
+ubuntu2404STIG_stigrule_270653_Manage: True
+ubuntu2404STIG_stigrule_270653_rsyslog_State: present
+ubuntu2404STIG_stigrule_270653_rsyslog_enable_Enabled: yes
+ubuntu2404STIG_stigrule_270653_rsyslog_start_State: started
+# R-270654 UBTU-24-100300
+ubuntu2404STIG_stigrule_270654_Manage: True
+ubuntu2404STIG_stigrule_270654_ufw_State: present
+# R-270656 UBTU-24-100400
+ubuntu2404STIG_stigrule_270656_Manage: True
+ubuntu2404STIG_stigrule_270656_auditd_State: present
+# R-270657 UBTU-24-100410
+ubuntu2404STIG_stigrule_270657_Manage: True
+ubuntu2404STIG_stigrule_270657_auditd_enable_Enabled: yes
+ubuntu2404STIG_stigrule_270657_auditd_enable_State: started
+# R-270659 UBTU-24-100500
+ubuntu2404STIG_stigrule_270659_Manage: True
+ubuntu2404STIG_stigrule_270659_apparmor_State: present
+# R-270660 UBTU-24-100510
+ubuntu2404STIG_stigrule_270660_Manage: True
+ubuntu2404STIG_stigrule_270660_apparmor_enable_Enabled: yes
+ubuntu2404STIG_stigrule_270660_apparmor_start_State: started
+# R-270661 UBTU-24-100600
+ubuntu2404STIG_stigrule_270661_Manage: True
+ubuntu2404STIG_stigrule_270661_libpam_pwquality_State: present
+# R-270661 UBTU-24-100600
+ubuntu2404STIG_stigrule_270661_Manage: True
+ubuntu2404STIG_stigrule_270661_sssd_State: present
+ubuntu2404STIG_stigrule_270661_libpam_sss_State: present
+ubuntu2404STIG_stigrule_270661_libnss_sss_State: present
+# R-270663 UBTU-24-100660
+ubuntu2404STIG_stigrule_270663_Manage: True
+ubuntu2404STIG_stigrule_270663_sssd_enable_Enabled: yes
+ubuntu2404STIG_stigrule_270663_sssd_enable_State: started
+# R-270664 UBTU-24-100700
+ubuntu2404STIG_stigrule_270664_Manage: True
+ubuntu2404STIG_stigrule_270664_chrony_State: present
+# R-270665 UBTU-24-100800
+ubuntu2404STIG_stigrule_270665_Manage: True
+ubuntu2404STIG_stigrule_270665_ssh_State: present
+# R-270666 UBTU-24-100810
+ubuntu2404STIG_stigrule_270666_Manage: True
+ubuntu2404STIG_stigrule_270666_ssh_active_Enabled: yes
+ubuntu2404STIG_stigrule_270666_ssh_start_State: started
+# R-270667 UBTU-24-100820
+ubuntu2404STIG_stigrule_270667_Manage: True
+ubuntu2404STIG_stigrule_270667_Ciphers_Line: Ciphers aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes128-ctr
+# R-270668 UBTU-24-100830
+ubuntu2404STIG_stigrule_270668_Manage: True
+ubuntu2404STIG_stigrule_270668_MACs_Line: MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256
+# R-270669 UBTU-24-100840
+ubuntu2404STIG_stigrule_270669_Manage: True
+ubuntu2404STIG_stigrule_270669_KexAlgorithms_Line: KexAlgorithms ecdh-sha2-nistp521,ecdh-sha2-nistp384,ecdh-sha2-nistp256,diffie-hellman-group-exchange-sha256,diffie-hellman-group16-sha512,diffie-hellman-group14-sha256
+# R-270670 UBTU-24-100850
+ubuntu2404STIG_stigrule_270670_Manage: True
+ubuntu2404STIG_stigrule_270670_Ciphers_Line: Ciphers aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes128-ctr
+# R-270671 UBTU-24-100860
+ubuntu2404STIG_stigrule_270671_Manage: True
+ubuntu2404STIG_stigrule_270671_MACs_Line: MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512,hmac-sha2-256
+# R-270672 UBTU-24-100900
+ubuntu2404STIG_stigrule_270672_Manage: True
+ubuntu2404STIG_stigrule_270672_opensc_pkcs11_State: present
+# R-270673 UBTU-24-100910
+ubuntu2404STIG_stigrule_270673_Manage: True
+ubuntu2404STIG_stigrule_270673_libpam_pkcs11_State: present
+# R-270674 UBTU-24-101000
+ubuntu2404STIG_stigrule_270674_Manage: True
+ubuntu2404STIG_stigrule_270674_vlock_State: present
+# R-270677 UBTU-24-200000
+ubuntu2404STIG_stigrule_270677_Manage: True
+ubuntu2404STIG_stigrule_270677__etc_security_limits_conf_Line: '* hard maxlogins 10'
+# R-270678 UBTU-24-200020
+ubuntu2404STIG_stigrule_270678_Manage: True
+ubuntu2404STIG_stigrule_270678__etc_dconf_db_local_d_00_screensaver_idle_delay_Value: 'uint32 900'
+ubuntu2404STIG_stigrule_270678__etc_dconf_db_local_d_00_screensaver_lock_enabled_Value: 'true'
+ubuntu2404STIG_stigrule_270678__etc_dconf_db_local_d_00_screensaver_lock_delay_Value: 'uint32 600'
+# R-270679 UBTU-24-200040
+ubuntu2404STIG_stigrule_270679_Manage: True
+ubuntu2404STIG_stigrule_270679__etc_dconf_db_local_d_locks_00_security_settings_lock_Line: '/org/gnome/desktop/media-handling/automount-open'
+# R-270680 UBTU-24-200060
+ubuntu2404STIG_stigrule_270680_Manage: True
+ubuntu2404STIG_stigrule_270680__etc_profile_d_99_terminal_tmout_sh_Dest: /etc/profile.d/99-terminal_tmout.sh
+ubuntu2404STIG_stigrule_270680__etc_profile_d_99_terminal_tmout_sh_Content: 'TMOUT=600'
+# R-270684 UBTU-24-200280
+ubuntu2404STIG_stigrule_270684_Manage: True
+ubuntu2404STIG_stigrule_270684__etc_audit_rules_d_stig_rules__etc_passwd_Line: '-w /etc/passwd -p wa -k usergroup_modification'
+# R-270685 UBTU-24-200290
+ubuntu2404STIG_stigrule_270685_Manage: True
+ubuntu2404STIG_stigrule_270685__etc_audit_rules_d_stig_rules__etc_group_Line: '-w /etc/group -p wa -k usergroup_modification'
+# R-270686 UBTU-24-200300
+ubuntu2404STIG_stigrule_270686_Manage: True
+ubuntu2404STIG_stigrule_270686__etc_audit_rules_d_stig_rules__etc_shadow_Line: '-w /etc/shadow -p wa -k usergroup_modification'
+# R-270687 UBTU-24-200310
+ubuntu2404STIG_stigrule_270687_Manage: True
+ubuntu2404STIG_stigrule_270687__etc_audit_rules_d_stig_rules__etc_gshadow_Line: '-w /etc/gshadow -p wa -k usergroup_modification'
+# R-270688 UBTU-24-200320
+ubuntu2404STIG_stigrule_270688_Manage: True
+ubuntu2404STIG_stigrule_270688__etc_audit_rules_d_stig_rules__etc_security_opasswd_Line: '-w /etc/security/opasswd -p wa -k usergroup_modification'
+# R-270689 UBTU-24-200580
+ubuntu2404STIG_stigrule_270689_Manage: True
+ubuntu2404STIG_stigrule_270689__etc_audit_rules_d_stig_rules_execve_b64_euid_Line: '-a always,exit -F arch=b64 -S execve -C uid!=euid -F euid=0 -F key=execpriv'
+ubuntu2404STIG_stigrule_270689__etc_audit_rules_d_stig_rules_execve_b64_egid_Line: '-a always,exit -F arch=b64 -S execve -C gid!=egid -F egid=0 -F key=execpriv'
+ubuntu2404STIG_stigrule_270689__etc_audit_rules_d_stig_rules_execve_b32_euid_Line: '-a always,exit -F arch=b32 -S execve -C uid!=euid -F euid=0 -F key=execpriv'
+ubuntu2404STIG_stigrule_270689__etc_audit_rules_d_stig_rules_execve_b32_egid_Line: '-a always,exit -F arch=b32 -S execve -C gid!=egid -F egid=0 -F key=execpriv'
+# R-270691 UBTU-24-200640
+ubuntu2404STIG_stigrule_270691_Manage: True
+ubuntu2404STIG_stigrule_270691_banner_Line: banner /etc/issue.net
+ubuntu2404STIG_stigrule_270691__etc_issue_net_Dest: /etc/issue.net
+ubuntu2404STIG_stigrule_270691__etc_issue_net_Content: 'You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only.
+
+By using this IS (which includes any device attached to this IS), you consent to the following conditions:
+
+-The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations.
+
+-At any time, the USG may inspect and seize data stored on this IS.
+
+-Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose.
+
+-This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy.
+
+-Notwithstanding the above, using this IS does not constitute consent to PM, LE or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy, and their assistants. Such communications and work product are private and confidential. See User Agreement for details.
+
+'
+# R-270692 UBTU-24-200650
+ubuntu2404STIG_stigrule_270692_Manage: True
+ubuntu2404STIG_stigrule_270692__etc_gdm3_greeter_dconf_defaults_enable_Value: 'true'
+# R-270693 UBTU-24-200660
+ubuntu2404STIG_stigrule_270693_Manage: True
+ubuntu2404STIG_stigrule_270693__etc_gdm3_greeter_dconf_defaults_text_Value: 'You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only.\n\nBy using this IS (which includes any device attached to this IS), you consent to the following conditions:\n\n-The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations.\n\n-At any time, the USG may inspect and seize data stored on this IS.\n\n-Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose.\n\n-This IS includes security measures (e.g., authentication and access controls) to protect USG interests--not for your personal benefit or privacy.\n\n-Notwithstanding the above, using this IS does not constitute consent to PM, LE or CI investigative searching or monitoring of the content of privileged communications, or work product, related to personal representation or services by attorneys, psychotherapists, or clergy, and their assistants. Such communications and work product are private and confidential. See User Agreement for details.'
+# R-270695 UBTU-24-300001
+ubuntu2404STIG_stigrule_270695_Manage: True
+ubuntu2404STIG_stigrule_270695__etc_apt_apt_conf_d_01_vendor_ubuntu_Line: 'APT::Get::AllowUnauthenticated "false";'
+# R-270704 UBTU-24-300014
+ubuntu2404STIG_stigrule_270704_Manage: True
+ubuntu2404STIG_stigrule_270704__etc_security_pwquality_conf_Line: 'dictcheck=1'
+# R-270708 UBTU-24-300022
+ubuntu2404STIG_stigrule_270708_Manage: True
+ubuntu2404STIG_stigrule_270708_X11Forwarding_Line: X11Forwarding no
+# R-270709 UBTU-24-300023
+ubuntu2404STIG_stigrule_270709_Manage: True
+ubuntu2404STIG_stigrule_270709_X11UseLocalhost_Line: X11UseLocalhost yes
+# R-270711 UBTU-24-300025
+ubuntu2404STIG_stigrule_270711_Manage: True
+ubuntu2404STIG_stigrule_270711__etc_dconf_db_local_d_00_screensaver_media_keys_Value: "['']"
+# R-270712 UBTU-24-300026
+ubuntu2404STIG_stigrule_270712_Manage: True
+ubuntu2404STIG_stigrule_270712_ctrl_alt_del_target_disable_Enabled: false
+ubuntu2404STIG_stigrule_270712_ctrl_alt_del_target_mask_Masked: true
+# R-270715 UBTU-24-300029
+ubuntu2404STIG_stigrule_270715_Manage: True
+ubuntu2404STIG_stigrule_270715__etc_audit_rules_d_stig_rules__var_log_journal_Line: '-w /var/log/journal -p wa -k systemd_journal'
+# R-270716 UBTU-24-300030
+ubuntu2404STIG_stigrule_270716_Manage: True
+ubuntu2404STIG_stigrule_270716__etc_login_defs_Line: 'UMASK 077'
+# R-270717 UBTU-24-300031
+ubuntu2404STIG_stigrule_270717_Manage: True
+ubuntu2404STIG_stigrule_270717_PermitEmptyPasswords_Line: PermitEmptyPasswords no
+ubuntu2404STIG_stigrule_270717_PermitUserEnvironment_Line: PermitUserEnvironment no
+# R-270718 UBTU-24-300039
+ubuntu2404STIG_stigrule_270718_Manage: True
+ubuntu2404STIG_stigrule_270718__etc_modprobe_d_DISASTIG_conf_install_usb_storage_Line: 'install usb-storage /bin/false'
+ubuntu2404STIG_stigrule_270718__etc_modprobe_d_DISASTIG_conf_blacklist_usb_storage_Line: 'blacklist usb-storage'
+# R-270722 UBTU-24-400030
+ubuntu2404STIG_stigrule_270722_Manage: True
+ubuntu2404STIG_stigrule_270722_PubkeyAuthentication_Line: PubkeyAuthentication yes
+# R-270726 UBTU-24-400260
+ubuntu2404STIG_stigrule_270726_Manage: True
+ubuntu2404STIG_stigrule_270726__etc_security_pwquality_conf_Line: 'ucredit=-1'
+# R-270727 UBTU-24-400270
+ubuntu2404STIG_stigrule_270727_Manage: True
+ubuntu2404STIG_stigrule_270727__etc_security_pwquality_conf_Line: 'lcredit=-1'
+# R-270728 UBTU-24-400280
+ubuntu2404STIG_stigrule_270728_Manage: True
+ubuntu2404STIG_stigrule_270728__etc_security_pwquality_conf_Line: 'dcredit=-1'
+# R-270729 UBTU-24-400290
+ubuntu2404STIG_stigrule_270729_Manage: True
+ubuntu2404STIG_stigrule_270729__etc_security_pwquality_conf_Line: 'difok=8'
+# R-270730 UBTU-24-400300
+ubuntu2404STIG_stigrule_270730_Manage: True
+ubuntu2404STIG_stigrule_270730__etc_login_defs_Line: 'PASS_MIN_DAYS 1'
+# R-270731 UBTU-24-400310
+ubuntu2404STIG_stigrule_270731_Manage: True
+ubuntu2404STIG_stigrule_270731__etc_login_defs_Line: 'PASS_MAX_DAYS 60'
+# R-270732 UBTU-24-400320
+ubuntu2404STIG_stigrule_270732_Manage: True
+ubuntu2404STIG_stigrule_270732__etc_security_pwquality_conf_Line: 'minlen=15'
+# R-270733 UBTU-24-400330
+ubuntu2404STIG_stigrule_270733_Manage: True
+ubuntu2404STIG_stigrule_270733__etc_security_pwquality_conf_Line: 'ocredit=-1'
+# R-270736 UBTU-24-400370
+ubuntu2404STIG_stigrule_270736_Manage: True
+ubuntu2404STIG_stigrule_270736__etc_sssd_sssd_conf_Line: 'ldap_user_certificate=userCertificate;binary'
+# R-270739 UBTU-24-400400
+ubuntu2404STIG_stigrule_270739_Manage: True
+ubuntu2404STIG_stigrule_270739__etc_login_defs_Line: 'ENCRYPT_METHOD SHA512'
+# R-270740 UBTU-24-500010
+ubuntu2404STIG_stigrule_270740_Manage: True
+ubuntu2404STIG_stigrule_270740__etc_audit_rules_d_stig_rules__var_log_sudo_log_Line: '-w /var/log/sudo.log -p wa -k maintenance'
+# R-270741 UBTU-24-500050
+ubuntu2404STIG_stigrule_270741_Manage: True
+ubuntu2404STIG_stigrule_270741_UsePAM_Line: UsePAM yes
+# R-270742 UBTU-24-600000
+ubuntu2404STIG_stigrule_270742_Manage: True
+ubuntu2404STIG_stigrule_270742_ClientAliveCountMax_Line: ClientAliveCountMax 1
+# R-270743 UBTU-24-600010
+ubuntu2404STIG_stigrule_270743_Manage: True
+ubuntu2404STIG_stigrule_270743_ClientAliveInterval_Line: ClientAliveInterval 600
+# R-270746 UBTU-24-600070
+ubuntu2404STIG_stigrule_270746_Manage: True
+ubuntu2404STIG_stigrule_270746_kdump_tools_disable_Enabled: no
+# R-270753 UBTU-24-600190
+ubuntu2404STIG_stigrule_270753_Manage: True
+ubuntu2404STIG_stigrule_270753_net_ipv4_tcp_syncookies_Value: 1
+ubuntu2404STIG_stigrule_270753__etc_sysctl_conf_Line: 'net.ipv4.tcp_syncookies = 1'
+# R-270773 UBTU-24-700320
+ubuntu2404STIG_stigrule_270773_Manage: True
+ubuntu2404STIG_stigrule_270773__etc_apt_apt_conf_d_50unattended_upgrades_Remove_Unused_Dependencies_Line: 'Unattended-Upgrade::Remove-Unused-Dependencies "true";'
+ubuntu2404STIG_stigrule_270773__etc_apt_apt_conf_d_50unattended_upgrades_Remove_Unused_Kernel_Packages_Line: 'Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";'
+# R-270778 UBTU-24-900070
+ubuntu2404STIG_stigrule_270778_Manage: True
+ubuntu2404STIG_stigrule_270778__etc_audit_rules_d_stig_rules__bin_su_Line: '-a always,exit -F path=/bin/su -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-priv_change'
+# R-270779 UBTU-24-900080
+ubuntu2404STIG_stigrule_270779_Manage: True
+ubuntu2404STIG_stigrule_270779__etc_audit_rules_d_stig_rules__usr_bin_chfn_Line: '-a always,exit -F path=/usr/bin/chfn -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-chfn'
+# R-270780 UBTU-24-900090
+ubuntu2404STIG_stigrule_270780_Manage: True
+ubuntu2404STIG_stigrule_270780__etc_audit_rules_d_stig_rules__usr_bin_mount_Line: '-a always,exit -F path=/usr/bin/mount -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-mount'
+# R-270781 UBTU-24-900100
+ubuntu2404STIG_stigrule_270781_Manage: True
+ubuntu2404STIG_stigrule_270781__etc_audit_rules_d_stig_rules__usr_bin_umount_Line: '-a always,exit -F path=/usr/bin/umount -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-umount'
+# R-270782 UBTU-24-900110
+ubuntu2404STIG_stigrule_270782_Manage: True
+ubuntu2404STIG_stigrule_270782__etc_audit_rules_d_stig_rules__usr_bin_ssh_agent_Line: '-a always,exit -F path=/usr/bin/ssh-agent -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-ssh'
+# R-270783 UBTU-24-900120
+ubuntu2404STIG_stigrule_270783_Manage: True
+ubuntu2404STIG_stigrule_270783__etc_audit_rules_d_stig_rules__usr_lib_openssh_ssh_keysign_Line: '-a always,exit -F path=/usr/lib/openssh/ssh-keysign -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-ssh'
+# R-270784 UBTU-24-900130
+ubuntu2404STIG_stigrule_270784_Manage: True
+ubuntu2404STIG_stigrule_270784__etc_audit_rules_d_stig_rules_b32_setxattr_fsetxattr_lsetxattr_removexattr_fremovexattr_lremovexattr_1_Line: '-a always,exit -F arch=b32 -S setxattr,fsetxattr,lsetxattr,removexattr,fremovexattr,lremovexattr -F auid>=1000 -F auid!=-1 -k perm_mod'
+ubuntu2404STIG_stigrule_270784__etc_audit_rules_d_stig_rules_b32_setxattr_fsetxattr_lsetxattr_removexattr_fremovexattr_lremovexattr_2_Line: '-a always,exit -F arch=b32 -S setxattr,fsetxattr,lsetxattr,removexattr,fremovexattr,lremovexattr -F auid=0 -k perm_mod'
+ubuntu2404STIG_stigrule_270784__etc_audit_rules_d_stig_rules_b64_setxattr_fsetxattr_lsetxattr_removexattr_fremovexattr_lremovexattr_1_Line: '-a always,exit -F arch=b64 -S setxattr,fsetxattr,lsetxattr,removexattr,fremovexattr,lremovexattr -F auid>=1000 -F auid!=-1 -k perm_mod'
+ubuntu2404STIG_stigrule_270784__etc_audit_rules_d_stig_rules_b64_setxattr_fsetxattr_lsetxattr_removexattr_fremovexattr_lremovexattr_2_Line: '-a always,exit -F arch=b64 -S setxattr,fsetxattr,lsetxattr,removexattr,fremovexattr,lremovexattr -F auid=0 -k perm_mod'
+# R-270785 UBTU-24-900140
+ubuntu2404STIG_stigrule_270785_Manage: True
+ubuntu2404STIG_stigrule_270785__etc_audit_rules_d_stig_rules_b32_chown_fchown_fchownat_lchown_Line: '-a always,exit -F arch=b32 -S chown,fchown,fchownat,lchown -F auid>=1000 -F auid!=-1 -k perm_chng'
+ubuntu2404STIG_stigrule_270785__etc_audit_rules_d_stig_rules_b64_chown_fchown_fchownat_lchown_Line: '-a always,exit -F arch=b64 -S chown,fchown,fchownat,lchown -F auid>=1000 -F auid!=-1 -k perm_chng'
+# R-270786 UBTU-24-900150
+ubuntu2404STIG_stigrule_270786_Manage: True
+ubuntu2404STIG_stigrule_270786__etc_audit_rules_d_stig_rules_b32_chmod_fchmod_fchmodat_Line: '-a always,exit -F arch=b32 -S chmod,fchmod,fchmodat -F auid>=1000 -F auid!=-1 -k perm_chng'
+ubuntu2404STIG_stigrule_270786__etc_audit_rules_d_stig_rules_b64_chmod_fchmod_fchmodat_Line: '-a always,exit -F arch=b64 -S chmod,fchmod,fchmodat -F auid>=1000 -F auid!=-1 -k perm_chng'
+# R-270787 UBTU-24-900160
+ubuntu2404STIG_stigrule_270787_Manage: True
+ubuntu2404STIG_stigrule_270787__etc_audit_rules_d_stig_rules_b32_creat_open_openat_open_by_handle_at_truncate_ftruncate_EPERM_Line: '-a always,exit -F arch=b32 -S creat,open,openat,open_by_handle_at,truncate,ftruncate -F exit=-EPERM -F auid>=1000 -F auid!=-1 -k perm_access'
+ubuntu2404STIG_stigrule_270787__etc_audit_rules_d_stig_rules_b32_creat_open_openat_open_by_handle_at_truncate_ftruncate_EACCES_Line: '-a always,exit -F arch=b32 -S creat,open,openat,open_by_handle_at,truncate,ftruncate -F exit=-EACCES -F auid>=1000 -F auid!=-1 -k perm_access'
+ubuntu2404STIG_stigrule_270787__etc_audit_rules_d_stig_rules_b64_creat_open_openat_open_by_handle_at_truncate_ftruncat_EPERM_Line: '-a always,exit -F arch=b64 -S creat,open,openat,open_by_handle_at,truncate,ftruncate -F exit=-EPERM -F auid>=1000 -F auid!=-1 -k perm_access'
+ubuntu2404STIG_stigrule_270787__etc_audit_rules_d_stig_rules_b64_creat_open_openat_open_by_handle_at_truncate_ftruncat_EACCES_Line: '-a always,exit -F arch=b64 -S creat,open,openat,open_by_handle_at,truncate,ftruncate -F exit=-EACCES -F auid>=1000 -F auid!=-1 -k perm_access'
+# R-270788 UBTU-24-900170
+ubuntu2404STIG_stigrule_270788_Manage: True
+ubuntu2404STIG_stigrule_270788__etc_audit_rules_d_stig_rules__usr_bin_sudo_Line: '-a always,exit -F path=/usr/bin/sudo -F perm=x -F auid>=1000 -F auid!=-1 -k priv_cmd'
+# R-270789 UBTU-24-900180
+ubuntu2404STIG_stigrule_270789_Manage: True
+ubuntu2404STIG_stigrule_270789__etc_audit_rules_d_stig_rules__usr_bin_sudoedit_Line: '-a always,exit -F path=/usr/bin/sudoedit -F perm=x -F auid>=1000 -F auid!=-1 -k priv_cmd'
+# R-270790 UBTU-24-900190
+ubuntu2404STIG_stigrule_270790_Manage: True
+ubuntu2404STIG_stigrule_270790__etc_audit_rules_d_stig_rules__usr_bin_chsh_Line: '-a always,exit -F path=/usr/bin/chsh -F perm=x -F auid>=1000 -F auid!=-1 -k priv_cmd'
+# R-270791 UBTU-24-900200
+ubuntu2404STIG_stigrule_270791_Manage: True
+ubuntu2404STIG_stigrule_270791__etc_audit_rules_d_stig_rules__usr_bin_newgrp_Line: '-a always,exit -F path=/usr/bin/newgrp -F perm=x -F auid>=1000 -F auid!=-1 -k priv_cmd'
+# R-270792 UBTU-24-900210
+ubuntu2404STIG_stigrule_270792_Manage: True
+ubuntu2404STIG_stigrule_270792__etc_audit_rules_d_stig_rules__usr_bin_chcon_Line: '-a always,exit -F path=/usr/bin/chcon -F perm=x -F auid>=1000 -F auid!=-1 -k perm_chng'
+# R-270793 UBTU-24-900220
+ubuntu2404STIG_stigrule_270793_Manage: True
+ubuntu2404STIG_stigrule_270793__etc_audit_rules_d_stig_rules__sbin_apparmor_parser_Line: '-a always,exit -F path=/sbin/apparmor_parser -F perm=x -F auid>=1000 -F auid!=-1 -k perm_chng'
+# R-270794 UBTU-24-900230
+ubuntu2404STIG_stigrule_270794_Manage: True
+ubuntu2404STIG_stigrule_270794__etc_audit_rules_d_stig_rules__usr_bin_setfacl_Line: '-a always,exit -F path=/usr/bin/setfacl -F perm=x -F auid>=1000 -F auid!=-1 -k perm_chng'
+# R-270795 UBTU-24-900240
+ubuntu2404STIG_stigrule_270795_Manage: True
+ubuntu2404STIG_stigrule_270795__etc_audit_rules_d_stig_rules__usr_bin_chacl_Line: '-a always,exit -F path=/usr/bin/chacl -F perm=x -F auid>=1000 -F auid!=-1 -k perm_chng'
+# R-270796 UBTU-24-900250
+ubuntu2404STIG_stigrule_270796_Manage: True
+ubuntu2404STIG_stigrule_270796__etc_audit_rules_d_stig_rules__var_log_faillog_Line: '-w /var/log/faillog -p wa -k logins'
+# R-270797 UBTU-24-900260
+ubuntu2404STIG_stigrule_270797_Manage: True
+ubuntu2404STIG_stigrule_270797__etc_audit_rules_d_stig_rules__var_log_lastlog_Line: '-w /var/log/lastlog -p wa -k logins'
+# R-270798 UBTU-24-900270
+ubuntu2404STIG_stigrule_270798_Manage: True
+ubuntu2404STIG_stigrule_270798__etc_audit_rules_d_stig_rules__usr_bin_passwd_Line: '-a always,exit -F path=/usr/bin/passwd -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-passwd'
+# R-270799 UBTU-24-900280
+ubuntu2404STIG_stigrule_270799_Manage: True
+ubuntu2404STIG_stigrule_270799__etc_audit_rules_d_stig_rules__sbin_unix_update_Line: '-a always,exit -F path=/sbin/unix_update -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-unix-update'
+# R-270800 UBTU-24-900290
+ubuntu2404STIG_stigrule_270800_Manage: True
+ubuntu2404STIG_stigrule_270800__etc_audit_rules_d_stig_rules__usr_bin_gpasswd_Line: '-a always,exit -F path=/usr/bin/gpasswd -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-gpasswd'
+# R-270801 UBTU-24-900300
+ubuntu2404STIG_stigrule_270801_Manage: True
+ubuntu2404STIG_stigrule_270801__etc_audit_rules_d_stig_rules__usr_bin_chage_Line: '-a always,exit -F path=/usr/bin/chage -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-chage'
+# R-270802 UBTU-24-900310
+ubuntu2404STIG_stigrule_270802_Manage: True
+ubuntu2404STIG_stigrule_270802__etc_audit_rules_d_stig_rules__usr_sbin_usermod_Line: '-a always,exit -F path=/usr/sbin/usermod -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-usermod'
+# R-270803 UBTU-24-900320
+ubuntu2404STIG_stigrule_270803_Manage: True
+ubuntu2404STIG_stigrule_270803__etc_audit_rules_d_stig_rules__usr_bin_crontab_Line: '-a always,exit -F path=/usr/bin/crontab -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-crontab'
+# R-270804 UBTU-24-900330
+ubuntu2404STIG_stigrule_270804_Manage: True
+ubuntu2404STIG_stigrule_270804__etc_audit_rules_d_stig_rules__usr_sbin_pam_timestamp_check_Line: '-a always,exit -F path=/usr/sbin/pam_timestamp_check -F perm=x -F auid>=1000 -F auid!=-1 -k privileged-pam_timestamp_check'
+# R-270805 UBTU-24-900340
+ubuntu2404STIG_stigrule_270805_Manage: True
+ubuntu2404STIG_stigrule_270805__etc_audit_rules_d_stig_rules_b32_init_module_finit_module_Line: '-a always,exit -F arch=b32 -S init_module,finit_module -F auid>=1000 -F auid!=-1 -k module_chng'
+ubuntu2404STIG_stigrule_270805__etc_audit_rules_d_stig_rules_b64_init_module_finit_module_Line: '-a always,exit -F arch=b64 -S init_module,finit_module -F auid>=1000 -F auid!=-1 -k module_chng'
+# R-270806 UBTU-24-900350
+ubuntu2404STIG_stigrule_270806_Manage: True
+ubuntu2404STIG_stigrule_270806__etc_audit_rules_d_stig_rules_delete_module_b32_Line: '-a always,exit -F arch=b32 -S delete_module -F auid>=1000 -F auid!=-1 -k module_chng'
+ubuntu2404STIG_stigrule_270806__etc_audit_rules_d_stig_rules_delete_module_b64_Line: '-a always,exit -F arch=b64 -S delete_module -F auid>=1000 -F auid!=-1 -k module_chng'
+# R-270807 UBTU-24-900510
+ubuntu2404STIG_stigrule_270807_Manage: True
+ubuntu2404STIG_stigrule_270807__etc_audit_rules_d_stig_rules__etc_sudoers_Line: '-w /etc/sudoers -p wa -k privilege_modification'
+# R-270808 UBTU-24-900520
+ubuntu2404STIG_stigrule_270808_Manage: True
+ubuntu2404STIG_stigrule_270808__etc_audit_rules_d_stig_rules__etc_sudoers_d_Line: '-w /etc/sudoers.d -p wa -k privilege_modification'
+# R-270809 UBTU-24-900540
+ubuntu2404STIG_stigrule_270809_Manage: True
+ubuntu2404STIG_stigrule_270809__etc_audit_rules_d_stig_rules_b64_unlink_unlinkat_rename_renameat_rmdir_Line: '-a always,exit -F arch=b64 -S unlink,unlinkat,rename,renameat,rmdir -F auid>=1000 -F auid!=-1 -k delete'
+ubuntu2404STIG_stigrule_270809__etc_audit_rules_d_stig_rules_b32_unlink_unlinkat_rename_renameat_rmdir_Line: '-a always,exit -F arch=b32 -S unlink,unlinkat,rename,renameat,rmdir -F auid>=1000 -F auid!=-1 -k delete'
+# R-270810 UBTU-24-900590
+ubuntu2404STIG_stigrule_270810_Manage: True
+ubuntu2404STIG_stigrule_270810__etc_audit_rules_d_stig_rules__var_log_wtmp_Line: '-w /var/log/wtmp -p wa -k logins'
+# R-270811 UBTU-24-900600
+ubuntu2404STIG_stigrule_270811_Manage: True
+ubuntu2404STIG_stigrule_270811__etc_audit_rules_d_stig_rules__var_run_utmp_Line: '-w /var/run/utmp -p wa -k logins'
+# R-270812 UBTU-24-900610
+ubuntu2404STIG_stigrule_270812_Manage: True
+ubuntu2404STIG_stigrule_270812__etc_audit_rules_d_stig_rules__var_log_btmp_Line: '-w /var/log/btmp -p wa -k logins'
+# R-270813 UBTU-24-900730
+ubuntu2404STIG_stigrule_270813_Manage: True
+ubuntu2404STIG_stigrule_270813__etc_audit_rules_d_stig_rules__sbin_modprobe_Line: '-w /sbin/modprobe -p x -k modules'
+# R-270814 UBTU-24-900740
+ubuntu2404STIG_stigrule_270814_Manage: True
+ubuntu2404STIG_stigrule_270814__etc_audit_rules_d_stig_rules__bin_kmod_Line: '-w /bin/kmod -p x -k modules'
+# R-270815 UBTU-24-900750
+ubuntu2404STIG_stigrule_270815_Manage: True
+ubuntu2404STIG_stigrule_270815__etc_audit_rules_d_stig_rules__usr_sbin_fdisk_Line: '-w /usr/sbin/fdisk -p x -k fdisk '
+# R-270832 UBTU-24-909000
+ubuntu2404STIG_stigrule_270832_Manage: True
+ubuntu2404STIG_stigrule_270832__etc_audit_rules_d_audit_rules_e2_Line: '-e 2'
+# R-274870 UBTU-24-200270
+ubuntu2404STIG_stigrule_274870_Manage: True
+ubuntu2404STIG_stigrule_274870__etc_audit_rules_d_stig_rules__etc_cron_d__cronjobs_Line: '-w /etc/cron.d/ -p wa -k cronjobs'
+ubuntu2404STIG_stigrule_274870__etc_audit_rules_d_stig_rules__var_spool_cron__cronjobs_Line: '-w /var/spool/cron/ -p wa -k cronjobs'
