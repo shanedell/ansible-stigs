@@ -1,0 +1,7 @@
+---
+- name: Apply RHEL 9 STIG Fixes
+  hosts: all
+  gather_facts: false
+  roles:
+    - role: rhel9STIG
+      become: true
