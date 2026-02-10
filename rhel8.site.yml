@@ -1,0 +1,7 @@
+---
+- name: Apply RHEL 8 STIG Fixes
+  hosts: all
+  gather_facts: false
+  roles:
+    - role: rhel8STIG
+      become: true

@@ -2,6 +2,8 @@
 
 This repository contains Ansible roles and sites for applying STIG fixes to different Operating Systems.
 
+- rhel8STIG
+    - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_RHEL_8_V2R6_STIG_Ansible.zip.
 - ubuntu2004STIG
     - Downloaded and extrated from DoD Cyber Exchange. The official zip file that contains this role can be found at https://dl.dod.cyber.mil/wp-content/uploads/stigs/zip/U_CAN_Ubuntu_20-04_LTS_V1R11_STIG_Ansible.zip.
 - ubuntu2204STIG
